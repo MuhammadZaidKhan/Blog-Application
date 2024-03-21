@@ -4,12 +4,13 @@ import Home from './Pages/Home'
 import About from './Pages/About';
 import ArticlesListPage from './Pages/ArticlesListPage';
 import ArticlePage from './Pages/Article-Page';
+import Navbar from './Components/Navbar';
 
 
 function App() {
   return (
     <BrowserRouter>
-
+      <Navbar />
       <Routes>
 
         <Route path='/' element={<Home />} />
